@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complaint Form</title>
+</head>
+<body>
+    <form id="complaintForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="phoneNumber">Phone Number:</label>
+        <input type="tel" id="phoneNumber" name="phoneNumber" required><br>
+
+        <label for="residentType">Resident Type:</label>
+        <select id="residentType" name="residentType" required>
+            <!-- Populate dynamically using JavaScript -->
+        </select><br>
+
+        <label for="complaintType">Complaint Type:</label>
+        <select id="complaintType" name="complaintType" required>
+            <!-- Populate dynamically using JavaScript -->
+        </select><br>
+
+        <button type="button" onclick="submitForm()">Submit</button>
+    </form>
+
+    <script src="your-script.js"></script>
+</body>
+</html>
